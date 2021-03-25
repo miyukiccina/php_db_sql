@@ -17,15 +17,20 @@
 
 <form action="data.php" method="post">
 
-  <p>Name of Restaurant：<input type="text" name="name" size="20"></p>
+  <p>Il nome del ristorante：<input type="text" name="name" size="20"></p>
   <p>Area：<input type="text" name="area" size="20"></p>
   <p>Area2：<input type="text" name="area2" size="20"></p>
-  <p>Category：<input type="text" name="category" size="20"></p>
-  <p>Adress：<input type="text" name="adress" size="20"></p>
-  <p>Comment:<textArea name="comment" rows="4" cols="40"></textArea></p>
+  <p>Categoria：<input type="text" name="category" size="20"></p>
+  <p>Indrizzo：<input type="text" name="adress" size="20"></p>
+  <p>Commenti:<textArea name="comment" rows="4" cols="40"></textArea></p>
 
   
   <p><input type="submit" value="Register" ></p>
+
+  
+  <div>
+      <a href="select.php">Vedi dei ristranti consigliati</a>
+      </div>
 
 
 </form>

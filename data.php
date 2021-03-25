@@ -38,7 +38,7 @@ $stmt->bindValue(':a5', $adress, PDO::PARAM_STR);
 $stmt->bindValue(':a6', $comment, PDO::PARAM_STR);
 $status = $stmt->execute();
 
-// // データ登録処理後
+// データ登録処理後
 if($status==false){
 
     $error = $stmt->errorInfo();
