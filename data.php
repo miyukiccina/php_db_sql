@@ -44,7 +44,7 @@ if($status==false){
     $error = $stmt->errorInfo();
     exit("QueryError:".$error[2]);
 }else{
-    header("Location: index.php");
+    header("Location: index.html");
     exit;
 }
 
