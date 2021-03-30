@@ -21,15 +21,23 @@ try {
     }else{
         // Selectデータの数だけ自動でループしてくれる
         while( $result = $stmt-> fetch(PDO::FETCH_ASSOC )){
-            $view .= "<p>";
-            $view .= $result["number"]." : ".$result["name"]."<br>"."Area"." : ".$result["area"]." - ".$result["area2"]."<br>"."Categoria"." : ".$result["category"]."<br>"."Indirizzo"." : ".$result["adress"]."<br>"."Commenti"." : ".$result["comment"];
-            $view .= "</p>";
+            // $view .= "<p>";
+            // $view .= $result["number"]." : ".$result["name"]."<br>"."Area"." : ".$result["area"]." - ".$result["area2"]."<br>"."Categoria"." : ".$result["category"]."<br>"."Indirizzo"." : ".$result["adress"]."<br>"."Commenti"." : ".$result["comment"];
+            // $view .= "</p>";
+            $view .="<p>";
+            $view .='<a href="u_view.php?number='.$result["number"].'">';
+            $view .= $result["number"]. " : " .$result["name"];
+            $view .="</a>";
+
+            $view .=' ';
+            $view .='<a href="delete.php?number='.$result["number"].'">';
+            $view .=' [削除] ';
+            $view .="</a>";
+            $view .="</p>";
         }
 
     }
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +53,7 @@ try {
 <h1>Ristranti Consigliati</h1>
   
       <div>
-      <a href="index.php">Regista dei ristranti</a>
+      <a href="index.html">Regista dei ristranti</a>
       </div>
     
 </header>
