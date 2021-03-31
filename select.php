@@ -46,7 +46,7 @@ try {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Nostra Patria</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://miyukiccina.github.io/php_db_sql/style.css">
 </head>
 <body>
 
@@ -54,7 +54,7 @@ try {
 <h1>Ristranti Consigliati</h1>
   
       <div>
-      <a href="index.html">Regista dei ristranti</a>
+      <a href="https://miyukiccina.github.io/php_db_sql/index.html">Regista dei ristranti</a>
       </div>
     
 </header>

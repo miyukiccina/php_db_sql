@@ -28,7 +28,7 @@ if($status==false){
     exit("QueryError:".$error[2]);
 }else{
     // SELECT.PHPにジャンプ
-    header("Location: select.php");
+    header("Location: https://miyukiccina.github.io/php_db_sql/select.php");
     exit;
     }
 

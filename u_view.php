@@ -40,7 +40,7 @@ if($status==false){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Nostra Patria</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://miyukiccina.github.io/php_db_sql/style.css">
 </head>
 <body>
     <header>
@@ -65,7 +65,7 @@ if($status==false){
 
   
   <div>
-      <a href="select.php">Vedi dei ristranti consigliati</a>
+      <a href="https://miyukiccina.github.io/php_db_sql/select.php">Vedi dei ristranti consigliati</a>
       </div>
 
 
