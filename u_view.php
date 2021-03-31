@@ -65,7 +65,7 @@ if($status==false){
 
   
   <div>
-      <a href="https://miyukiccina.github.io/php_db_sql/select.php">Vedi dei ristranti consigliati</a>
+      <a href="https://miyukiccina.github.io/php_db_sql/select.html">Vedi dei ristranti consigliati</a>
       </div>
 
 

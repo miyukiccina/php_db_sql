@@ -33,7 +33,7 @@ if($status==false){
     $error = $stmt->errorInfo();
     exit("QueryError:".$error[2]);
 }else{
-    header("Location: https://miyukiccina.github.io/php_db_sql/select.php");
+    header("Location: https://miyukiccina.github.io/php_db_sql/select.html");
     exit;
     }
 
